@@ -1,0 +1,6 @@
+framework module Pods_MyTunesMVVM {
+  umbrella header "Pods-MyTunesMVVM-umbrella.h"
+
+  export *
+  module * { export * }
+}

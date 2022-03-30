@@ -1,0 +1,64 @@
+PODS:
+  - Alamofire (5.5.0)
+  - Kingfisher (5.15.8):
+    - Kingfisher/Core (= 5.15.8)
+  - Kingfisher/Core (5.15.8)
+  - Material (3.1.8):
+    - Material/Core (= 3.1.8)
+  - Material/Core (3.1.8):
+    - Motion (~> 3.1.1)
+  - Motion (3.1.3):
+    - Motion/Core (= 3.1.3)
+  - Motion/Core (3.1.3)
+  - RxCocoa (5.1.3):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxGesture (3.0.2):
+    - RxCocoa (~> 5.1)
+    - RxSwift (~> 5.1)
+  - RxRelay (5.1.3):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.3)
+  - XCoordinator (2.0.7):
+    - XCoordinator/Core (= 2.0.7)
+  - XCoordinator/Core (2.0.7)
+  - XCoordinator/RxSwift (2.0.7):
+    - RxSwift (~> 5.0)
+    - XCoordinator/Core
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0)
+  - Kingfisher (~> 5.0)
+  - Material (~> 3.1.0)
+  - RxCocoa (~> 5.1.1)
+  - RxGesture
+  - RxSwift (~> 5)
+  - XCoordinator (~> 2.0)
+  - XCoordinator/RxSwift (~> 2.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - Material
+    - Motion
+    - RxCocoa
+    - RxGesture
+    - RxRelay
+    - RxSwift
+    - XCoordinator
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
+  Material: a2a3f400a3b549d53ef89e56c58c4535b29db387
+  Motion: cf1e060e489f6661126374d5c60dbd2ed991605c
+  RxCocoa: e2ed092d5432e4296aa818021d27de4090ac0354
+  RxGesture: d6bd7447ca3a596c7a9702a6a2b6a2bb5d8bae54
+  RxRelay: 5a18c2eb2d68326ebaf0112f80d837ae41b92b97
+  RxSwift: 915abbdfb62214aa89ccd0b194d44fb478019b27
+  XCoordinator: 9ee654fedef1ffede33d5c11677708a555c00542
+
+PODFILE CHECKSUM: 534824f03d026a40131f2a917350c408fd86adc1
+
+COCOAPODS: 1.11.2
