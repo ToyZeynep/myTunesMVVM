@@ -1,4 +1,7 @@
 PODS:
+  - Action (4.2.0):
+    - RxCocoa (< 7.0, >= 5.0)
+    - RxSwift (< 7.0, >= 5.0)
   - Alamofire (5.5.0)
   - Kingfisher (5.15.8):
     - Kingfisher/Core (= 5.15.8)
@@ -27,6 +30,7 @@ PODS:
     - XCoordinator/Core
 
 DEPENDENCIES:
+  - Action
   - Alamofire (~> 5.0)
   - Kingfisher (~> 5.0)
   - Material (~> 3.1.0)
@@ -38,6 +42,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - Action
     - Alamofire
     - Kingfisher
     - Material
@@ -49,6 +54,7 @@ SPEC REPOS:
     - XCoordinator
 
 SPEC CHECKSUMS:
+  Action: 5dc2194f7a0b77857c82a677b0da655f197c005f
   Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
   Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
   Material: a2a3f400a3b549d53ef89e56c58c4535b29db387
@@ -59,6 +65,6 @@ SPEC CHECKSUMS:
   RxSwift: 915abbdfb62214aa89ccd0b194d44fb478019b27
   XCoordinator: 9ee654fedef1ffede33d5c11677708a555c00542
 
-PODFILE CHECKSUM: 534824f03d026a40131f2a917350c408fd86adc1
+PODFILE CHECKSUM: 988a07020d14def6099add377564eeccc16aed55
 
 COCOAPODS: 1.11.2

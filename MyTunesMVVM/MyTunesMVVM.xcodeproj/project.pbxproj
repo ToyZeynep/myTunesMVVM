@@ -9,10 +9,16 @@
 /* Begin PBXBuildFile section */
 		22EBB45827F46CBC00C1C88E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB45727F46CBC00C1C88E /* AppDelegate.swift */; };
 		22EBB45A27F46CBC00C1C88E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB45927F46CBC00C1C88E /* SceneDelegate.swift */; };
-		22EBB45C27F46CBC00C1C88E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB45B27F46CBC00C1C88E /* ViewController.swift */; };
-		22EBB45F27F46CBC00C1C88E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22EBB45D27F46CBC00C1C88E /* Main.storyboard */; };
 		22EBB46127F46CBE00C1C88E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22EBB46027F46CBE00C1C88E /* Assets.xcassets */; };
-		22EBB46427F46CBE00C1C88E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22EBB46227F46CBE00C1C88E /* LaunchScreen.storyboard */; };
+		22EBB46D27F46FA500C1C88E /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB46C27F46FA500C1C88E /* ApiClient.swift */; };
+		22EBB46F27F46FB700C1C88E /* ApiConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB46E27F46FB700C1C88E /* ApiConfiguration.swift */; };
+		22EBB47127F46FC800C1C88E /* ApiEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB47027F46FC800C1C88E /* ApiEndPoints.swift */; };
+		22EBB47427F4708B00C1C88E /* MyTunesListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB47327F4708B00C1C88E /* MyTunesListUseCase.swift */; };
+		22EBB47927F471B700C1C88E /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB47827F471B700C1C88E /* Results.swift */; };
+		22EBB47B27F471E400C1C88E /* MyTunesListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB47A27F471E400C1C88E /* MyTunesListResponse.swift */; };
+		22EBB47E27F4736A00C1C88E /* MyTunesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB47D27F4736A00C1C88E /* MyTunesListViewController.swift */; };
+		22EBB48027F4737800C1C88E /* MyTunesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB47F27F4737800C1C88E /* MyTunesListViewModel.swift */; };
+		22EBB48227F4738700C1C88E /* MyTunesListViewModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB48127F4738700C1C88E /* MyTunesListViewModelImpl.swift */; };
 		4684E1A7B3D1ED070EB04CDA /* Pods_MyTunesMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B63C47DF8E9172C8C9FA0EC /* Pods_MyTunesMVVM.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,11 +26,17 @@
 		22EBB45427F46CBC00C1C88E /* MyTunesMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTunesMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22EBB45727F46CBC00C1C88E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22EBB45927F46CBC00C1C88E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		22EBB45B27F46CBC00C1C88E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		22EBB45E27F46CBC00C1C88E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22EBB46027F46CBE00C1C88E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		22EBB46327F46CBE00C1C88E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22EBB46527F46CBE00C1C88E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22EBB46C27F46FA500C1C88E /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		22EBB46E27F46FB700C1C88E /* ApiConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConfiguration.swift; sourceTree = "<group>"; };
+		22EBB47027F46FC800C1C88E /* ApiEndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndPoints.swift; sourceTree = "<group>"; };
+		22EBB47327F4708B00C1C88E /* MyTunesListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTunesListUseCase.swift; sourceTree = "<group>"; };
+		22EBB47827F471B700C1C88E /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		22EBB47A27F471E400C1C88E /* MyTunesListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTunesListResponse.swift; sourceTree = "<group>"; };
+		22EBB47D27F4736A00C1C88E /* MyTunesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTunesListViewController.swift; sourceTree = "<group>"; };
+		22EBB47F27F4737800C1C88E /* MyTunesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTunesListViewModel.swift; sourceTree = "<group>"; };
+		22EBB48127F4738700C1C88E /* MyTunesListViewModelImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTunesListViewModelImpl.swift; sourceTree = "<group>"; };
 		2B63C47DF8E9172C8C9FA0EC /* Pods_MyTunesMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTunesMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78B08EC1290552E066761E96 /* Pods-MyTunesMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTunesMVVM.release.xcconfig"; path = "Target Support Files/Pods-MyTunesMVVM/Pods-MyTunesMVVM.release.xcconfig"; sourceTree = "<group>"; };
 		E55CCFDCB39BB04AE07470C6 /* Pods-MyTunesMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTunesMVVM.debug.xcconfig"; path = "Target Support Files/Pods-MyTunesMVVM/Pods-MyTunesMVVM.debug.xcconfig"; sourceTree = "<group>"; };
@@ -63,15 +75,69 @@
 		22EBB45627F46CBC00C1C88E /* MyTunesMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				22EBB47C27F4733F00C1C88E /* MyTunesList */,
+				22EBB47527F4719400C1C88E /* Data */,
+				22EBB47227F4701300C1C88E /* Domain */,
+				22EBB46B27F46F9100C1C88E /* Network */,
 				22EBB45727F46CBC00C1C88E /* AppDelegate.swift */,
 				22EBB45927F46CBC00C1C88E /* SceneDelegate.swift */,
-				22EBB45B27F46CBC00C1C88E /* ViewController.swift */,
-				22EBB45D27F46CBC00C1C88E /* Main.storyboard */,
 				22EBB46027F46CBE00C1C88E /* Assets.xcassets */,
-				22EBB46227F46CBE00C1C88E /* LaunchScreen.storyboard */,
 				22EBB46527F46CBE00C1C88E /* Info.plist */,
 			);
 			path = MyTunesMVVM;
+			sourceTree = "<group>";
+		};
+		22EBB46B27F46F9100C1C88E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				22EBB46C27F46FA500C1C88E /* ApiClient.swift */,
+				22EBB46E27F46FB700C1C88E /* ApiConfiguration.swift */,
+				22EBB47027F46FC800C1C88E /* ApiEndPoints.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		22EBB47227F4701300C1C88E /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				22EBB47327F4708B00C1C88E /* MyTunesListUseCase.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		22EBB47527F4719400C1C88E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				22EBB47727F471A300C1C88E /* Entities */,
+				22EBB47627F4719C00C1C88E /* Api */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		22EBB47627F4719C00C1C88E /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				22EBB47A27F471E400C1C88E /* MyTunesListResponse.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		22EBB47727F471A300C1C88E /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				22EBB47827F471B700C1C88E /* Results.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		22EBB47C27F4733F00C1C88E /* MyTunesList */ = {
+			isa = PBXGroup;
+			children = (
+				22EBB47D27F4736A00C1C88E /* MyTunesListViewController.swift */,
+				22EBB47F27F4737800C1C88E /* MyTunesListViewModel.swift */,
+				22EBB48127F4738700C1C88E /* MyTunesListViewModelImpl.swift */,
+			);
+			path = MyTunesList;
 			sourceTree = "<group>";
 		};
 		37AC980C88BB08B61388A01B /* Pods */ = {
@@ -80,7 +146,6 @@
 				E55CCFDCB39BB04AE07470C6 /* Pods-MyTunesMVVM.debug.xcconfig */,
 				78B08EC1290552E066761E96 /* Pods-MyTunesMVVM.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -152,9 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22EBB46427F46CBE00C1C88E /* LaunchScreen.storyboard in Resources */,
 				22EBB46127F46CBE00C1C88E /* Assets.xcassets in Resources */,
-				22EBB45F27F46CBC00C1C88E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,32 +270,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22EBB45C27F46CBC00C1C88E /* ViewController.swift in Sources */,
 				22EBB45827F46CBC00C1C88E /* AppDelegate.swift in Sources */,
+				22EBB48227F4738700C1C88E /* MyTunesListViewModelImpl.swift in Sources */,
+				22EBB47427F4708B00C1C88E /* MyTunesListUseCase.swift in Sources */,
 				22EBB45A27F46CBC00C1C88E /* SceneDelegate.swift in Sources */,
+				22EBB47927F471B700C1C88E /* Results.swift in Sources */,
+				22EBB48027F4737800C1C88E /* MyTunesListViewModel.swift in Sources */,
+				22EBB47E27F4736A00C1C88E /* MyTunesListViewController.swift in Sources */,
+				22EBB47B27F471E400C1C88E /* MyTunesListResponse.swift in Sources */,
+				22EBB46D27F46FA500C1C88E /* ApiClient.swift in Sources */,
+				22EBB46F27F46FB700C1C88E /* ApiConfiguration.swift in Sources */,
+				22EBB47127F46FC800C1C88E /* ApiEndPoints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		22EBB45D27F46CBC00C1C88E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22EBB45E27F46CBC00C1C88E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		22EBB46227F46CBE00C1C88E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22EBB46327F46CBE00C1C88E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		22EBB46627F46CBE00C1C88E /* Debug */ = {
@@ -363,8 +415,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyTunesMVVM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -392,8 +442,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyTunesMVVM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

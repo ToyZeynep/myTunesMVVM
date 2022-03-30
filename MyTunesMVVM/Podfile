@@ -15,5 +15,5 @@ target 'MyTunesMVVM' do
   pod 'XCoordinator/RxSwift', '~> 2.0'
   pod 'Kingfisher', '~> 5.0'
   pod 'Material', '~> 3.1.0'
-
+  pod 'Action'
 end
