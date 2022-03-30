@@ -19,6 +19,16 @@
 		22EBB47E27F4736A00C1C88E /* MyTunesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB47D27F4736A00C1C88E /* MyTunesListViewController.swift */; };
 		22EBB48027F4737800C1C88E /* MyTunesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB47F27F4737800C1C88E /* MyTunesListViewModel.swift */; };
 		22EBB48227F4738700C1C88E /* MyTunesListViewModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB48127F4738700C1C88E /* MyTunesListViewModelImpl.swift */; };
+		22EBB48527F4954E00C1C88E /* MyTunesListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB48427F4954E00C1C88E /* MyTunesListCoordinator.swift */; };
+		22EBB48727F4988400C1C88E /* MyTunesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB48627F4988400C1C88E /* MyTunesListView.swift */; };
+		22EBB48927F4989400C1C88E /* MyTunesListViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB48827F4989400C1C88E /* MyTunesListViewExtension.swift */; };
+		22EBB48C27F49CB400C1C88E /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB48B27F49CB400C1C88E /* ViewExtension.swift */; };
+		22EBB48E27F49FEA00C1C88E /* BindableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB48D27F49FEA00C1C88E /* BindableType.swift */; };
+		22EBB49027F4A02C00C1C88E /* TransitionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB48F27F4A02C00C1C88E /* TransitionExtension.swift */; };
+		22EBB49227F4A05800C1C88E /* GridFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB49127F4A05800C1C88E /* GridFlowLayout.swift */; };
+		22EBB49427F4A0D200C1C88E /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB49327F4A0D200C1C88E /* AlertHelper.swift */; };
+		22EBB49627F4A16700C1C88E /* MyTunesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB49527F4A16700C1C88E /* MyTunesListCell.swift */; };
+		22EBB49827F4A21A00C1C88E /* MyTunesListCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB49727F4A21A00C1C88E /* MyTunesListCellExtension.swift */; };
 		4684E1A7B3D1ED070EB04CDA /* Pods_MyTunesMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B63C47DF8E9172C8C9FA0EC /* Pods_MyTunesMVVM.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +47,16 @@
 		22EBB47D27F4736A00C1C88E /* MyTunesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTunesListViewController.swift; sourceTree = "<group>"; };
 		22EBB47F27F4737800C1C88E /* MyTunesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTunesListViewModel.swift; sourceTree = "<group>"; };
 		22EBB48127F4738700C1C88E /* MyTunesListViewModelImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTunesListViewModelImpl.swift; sourceTree = "<group>"; };
+		22EBB48427F4954E00C1C88E /* MyTunesListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTunesListCoordinator.swift; sourceTree = "<group>"; };
+		22EBB48627F4988400C1C88E /* MyTunesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTunesListView.swift; sourceTree = "<group>"; };
+		22EBB48827F4989400C1C88E /* MyTunesListViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTunesListViewExtension.swift; sourceTree = "<group>"; };
+		22EBB48B27F49CB400C1C88E /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		22EBB48D27F49FEA00C1C88E /* BindableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableType.swift; sourceTree = "<group>"; };
+		22EBB48F27F4A02C00C1C88E /* TransitionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionExtension.swift; sourceTree = "<group>"; };
+		22EBB49127F4A05800C1C88E /* GridFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridFlowLayout.swift; sourceTree = "<group>"; };
+		22EBB49327F4A0D200C1C88E /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		22EBB49527F4A16700C1C88E /* MyTunesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTunesListCell.swift; sourceTree = "<group>"; };
+		22EBB49727F4A21A00C1C88E /* MyTunesListCellExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTunesListCellExtension.swift; sourceTree = "<group>"; };
 		2B63C47DF8E9172C8C9FA0EC /* Pods_MyTunesMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTunesMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78B08EC1290552E066761E96 /* Pods-MyTunesMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTunesMVVM.release.xcconfig"; path = "Target Support Files/Pods-MyTunesMVVM/Pods-MyTunesMVVM.release.xcconfig"; sourceTree = "<group>"; };
 		E55CCFDCB39BB04AE07470C6 /* Pods-MyTunesMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTunesMVVM.debug.xcconfig"; path = "Target Support Files/Pods-MyTunesMVVM/Pods-MyTunesMVVM.debug.xcconfig"; sourceTree = "<group>"; };
@@ -75,6 +95,8 @@
 		22EBB45627F46CBC00C1C88E /* MyTunesMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				22EBB48A27F49CA100C1C88E /* Util */,
+				22EBB48327F4953500C1C88E /* Coordinator */,
 				22EBB47C27F4733F00C1C88E /* MyTunesList */,
 				22EBB47527F4719400C1C88E /* Data */,
 				22EBB47227F4701300C1C88E /* Domain */,
@@ -136,8 +158,32 @@
 				22EBB47D27F4736A00C1C88E /* MyTunesListViewController.swift */,
 				22EBB47F27F4737800C1C88E /* MyTunesListViewModel.swift */,
 				22EBB48127F4738700C1C88E /* MyTunesListViewModelImpl.swift */,
+				22EBB48627F4988400C1C88E /* MyTunesListView.swift */,
+				22EBB48827F4989400C1C88E /* MyTunesListViewExtension.swift */,
+				22EBB49527F4A16700C1C88E /* MyTunesListCell.swift */,
+				22EBB49727F4A21A00C1C88E /* MyTunesListCellExtension.swift */,
 			);
 			path = MyTunesList;
+			sourceTree = "<group>";
+		};
+		22EBB48327F4953500C1C88E /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				22EBB48427F4954E00C1C88E /* MyTunesListCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		22EBB48A27F49CA100C1C88E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				22EBB48B27F49CB400C1C88E /* ViewExtension.swift */,
+				22EBB48D27F49FEA00C1C88E /* BindableType.swift */,
+				22EBB48F27F4A02C00C1C88E /* TransitionExtension.swift */,
+				22EBB49127F4A05800C1C88E /* GridFlowLayout.swift */,
+				22EBB49327F4A0D200C1C88E /* AlertHelper.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 		37AC980C88BB08B61388A01B /* Pods */ = {
@@ -270,16 +316,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22EBB48E27F49FEA00C1C88E /* BindableType.swift in Sources */,
 				22EBB45827F46CBC00C1C88E /* AppDelegate.swift in Sources */,
+				22EBB48727F4988400C1C88E /* MyTunesListView.swift in Sources */,
+				22EBB49827F4A21A00C1C88E /* MyTunesListCellExtension.swift in Sources */,
+				22EBB49227F4A05800C1C88E /* GridFlowLayout.swift in Sources */,
 				22EBB48227F4738700C1C88E /* MyTunesListViewModelImpl.swift in Sources */,
+				22EBB49627F4A16700C1C88E /* MyTunesListCell.swift in Sources */,
 				22EBB47427F4708B00C1C88E /* MyTunesListUseCase.swift in Sources */,
+				22EBB49027F4A02C00C1C88E /* TransitionExtension.swift in Sources */,
 				22EBB45A27F46CBC00C1C88E /* SceneDelegate.swift in Sources */,
 				22EBB47927F471B700C1C88E /* Results.swift in Sources */,
+				22EBB49427F4A0D200C1C88E /* AlertHelper.swift in Sources */,
 				22EBB48027F4737800C1C88E /* MyTunesListViewModel.swift in Sources */,
 				22EBB47E27F4736A00C1C88E /* MyTunesListViewController.swift in Sources */,
 				22EBB47B27F471E400C1C88E /* MyTunesListResponse.swift in Sources */,
+				22EBB48C27F49CB400C1C88E /* ViewExtension.swift in Sources */,
+				22EBB48527F4954E00C1C88E /* MyTunesListCoordinator.swift in Sources */,
 				22EBB46D27F46FA500C1C88E /* ApiClient.swift in Sources */,
 				22EBB46F27F46FB700C1C88E /* ApiConfiguration.swift in Sources */,
+				22EBB48927F4989400C1C88E /* MyTunesListViewExtension.swift in Sources */,
 				22EBB47127F46FC800C1C88E /* ApiEndPoints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +471,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyTunesMVVM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -442,6 +499,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyTunesMVVM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

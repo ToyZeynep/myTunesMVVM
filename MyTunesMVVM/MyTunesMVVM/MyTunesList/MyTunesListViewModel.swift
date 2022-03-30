@@ -12,7 +12,7 @@ import Action
 
 protocol MyTunesListViewModelInput {
     
-  var selectedTune: AnyObserver<Results> { get }
+  //var selectedTune: AnyObserver<Results> { get }
 }
 protocol MyTunesListViewModelOutput {
     var myTunesListResponse: PublishSubject<MyTunesListResponse> { get }
@@ -24,13 +24,13 @@ protocol MyTunesListViewModelStoredProperties {
     
 }
 
-protocol CharacterListViewModel {
+protocol MyTunesListViewModel {
     var input: MyTunesListViewModelInput { get }
     var output: MyTunesListViewModelOutput { get }
     var storedProperties : MyTunesListViewModelStoredProperties { get }
 }
 
-extension CharacterListViewModel where Self: MyTunesListViewModelInput & MyTunesListViewModelOutput & MyTunesListViewModelStoredProperties {
+extension MyTunesListViewModel where Self: MyTunesListViewModelInput & MyTunesListViewModelOutput & MyTunesListViewModelStoredProperties {
     var input: MyTunesListViewModelInput { return self }
     var output: MyTunesListViewModelOutput { return self }
     var storedProperties: MyTunesListViewModelStoredProperties { return self }

@@ -16,7 +16,7 @@ class ApiClient {
     }
 
     private static func request<T: Codable> (_ urlConvertible: URLRequestConvertible) -> Observable<T> {
-
+        print(urlConvertible.urlRequest)
           //Create an RxSwift observable, which will be the one to call the request when subscribed to
           return Observable<T>.create { observer in
               //Trigger the HttpRequest using AlamoFire (AF)
@@ -31,6 +31,10 @@ class ApiClient {
                       observer.onCompleted()
                   case .failure(let error):
                       //Something went wrong, switch on the status code and return the error
+                      print(response.response)
+                      print(response.data)
+                      print(response.description)
+                      print(error.errorDescription)
                       observer.onError(error)
                       observer.onCompleted()
                   }

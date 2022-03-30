@@ -11,11 +11,11 @@ import RxCocoa
 
 protocol MyTunesListUseCaseType {
     
-    func getCharacterList(params: [String: Any]) -> Observable<MyTunesListResponse>
+    func getMyTunesList(params: [String: Any]) -> Observable<MyTunesListResponse>
 }
 
 struct MyTunesListUseCase: MyTunesListUseCaseType {
-    func getCharacterList(params: [String : Any]) -> Observable<MyTunesListResponse> {
+    func getMyTunesList(params: [String : Any]) -> Observable<MyTunesListResponse> {
         return ApiClient.getMyTunesList(params: params)
     }
 
