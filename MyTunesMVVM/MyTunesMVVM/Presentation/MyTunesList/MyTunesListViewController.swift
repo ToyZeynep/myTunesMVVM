@@ -35,7 +35,7 @@ class MyTunesListViewController : UIViewController, BindableType, UICollectionVi
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        navigationController?.setNavigationBarHidden(true, animated: animated)
+      
         myTunesListView.myTunesListCollectionView.reloadData()
         navigationController?.navigationBar.backgroundColor = UIColor(rgb: 0xF5F5F5)
     }
@@ -69,6 +69,9 @@ class MyTunesListViewController : UIViewController, BindableType, UICollectionVi
             cell.myTunesListCellTypeLabel.text = model.wrapperType
             cell.myTunesListCellKindLabel.text = model.kind
         } .disposed(by: disposeBag)
+        
+        myTunesListView.myTunesListCollectionView.rx.modelSelected(Results.self)
+            .bind(to: viewModel.input.selectedTune).disposed(by: disposeBag)
     }
     
     

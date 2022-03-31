@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2215D55A27F5FFC8006642E1 /* MyTunesDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2215D55927F5FFC8006642E1 /* MyTunesDetailsView.swift */; };
+		2215D55C27F5FFE6006642E1 /* MyTunesDetailsViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2215D55B27F5FFE6006642E1 /* MyTunesDetailsViewExtension.swift */; };
+		2215D55E27F5FFF6006642E1 /* MyTunesDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2215D55D27F5FFF6006642E1 /* MyTunesDetailsViewController.swift */; };
+		2215D56027F6001A006642E1 /* MyTunesDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2215D55F27F6001A006642E1 /* MyTunesDetailsViewModel.swift */; };
+		2215D56227F6002A006642E1 /* MyTunesDetailsViewModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2215D56127F6002A006642E1 /* MyTunesDetailsViewModelImpl.swift */; };
 		225105D827F5ACC2002BFF7E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225105D727F5ACC2002BFF7E /* Constants.swift */; };
 		22EBB45827F46CBC00C1C88E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB45727F46CBC00C1C88E /* AppDelegate.swift */; };
 		22EBB45A27F46CBC00C1C88E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB45927F46CBC00C1C88E /* SceneDelegate.swift */; };
@@ -34,6 +39,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2215D55927F5FFC8006642E1 /* MyTunesDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTunesDetailsView.swift; sourceTree = "<group>"; };
+		2215D55B27F5FFE6006642E1 /* MyTunesDetailsViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTunesDetailsViewExtension.swift; sourceTree = "<group>"; };
+		2215D55D27F5FFF6006642E1 /* MyTunesDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTunesDetailsViewController.swift; sourceTree = "<group>"; };
+		2215D55F27F6001A006642E1 /* MyTunesDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTunesDetailsViewModel.swift; sourceTree = "<group>"; };
+		2215D56127F6002A006642E1 /* MyTunesDetailsViewModelImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTunesDetailsViewModelImpl.swift; sourceTree = "<group>"; };
 		225105D727F5ACC2002BFF7E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		22EBB45427F46CBC00C1C88E /* MyTunesMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTunesMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22EBB45727F46CBC00C1C88E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +86,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2215D55727F5FF78006642E1 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				2215D55827F5FF92006642E1 /* MyTunesDetails */,
+				22EBB47C27F4733F00C1C88E /* MyTunesList */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		2215D55827F5FF92006642E1 /* MyTunesDetails */ = {
+			isa = PBXGroup;
+			children = (
+				2215D55927F5FFC8006642E1 /* MyTunesDetailsView.swift */,
+				2215D55B27F5FFE6006642E1 /* MyTunesDetailsViewExtension.swift */,
+				2215D55D27F5FFF6006642E1 /* MyTunesDetailsViewController.swift */,
+				2215D55F27F6001A006642E1 /* MyTunesDetailsViewModel.swift */,
+				2215D56127F6002A006642E1 /* MyTunesDetailsViewModelImpl.swift */,
+			);
+			path = MyTunesDetails;
+			sourceTree = "<group>";
+		};
 		22EBB44B27F46CBC00C1C88E = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +128,9 @@
 		22EBB45627F46CBC00C1C88E /* MyTunesMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				2215D55727F5FF78006642E1 /* Presentation */,
 				22EBB48A27F49CA100C1C88E /* Util */,
 				22EBB48327F4953500C1C88E /* Coordinator */,
-				22EBB47C27F4733F00C1C88E /* MyTunesList */,
 				22EBB47527F4719400C1C88E /* Data */,
 				22EBB47227F4701300C1C88E /* Domain */,
 				22EBB46B27F46F9100C1C88E /* Network */,
@@ -319,6 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2215D55A27F5FFC8006642E1 /* MyTunesDetailsView.swift in Sources */,
 				22EBB48E27F49FEA00C1C88E /* BindableType.swift in Sources */,
 				225105D827F5ACC2002BFF7E /* Constants.swift in Sources */,
 				22EBB45827F46CBC00C1C88E /* AppDelegate.swift in Sources */,
@@ -332,6 +364,9 @@
 				22EBB45A27F46CBC00C1C88E /* SceneDelegate.swift in Sources */,
 				22EBB47927F471B700C1C88E /* Results.swift in Sources */,
 				22EBB49427F4A0D200C1C88E /* AlertHelper.swift in Sources */,
+				2215D55E27F5FFF6006642E1 /* MyTunesDetailsViewController.swift in Sources */,
+				2215D56027F6001A006642E1 /* MyTunesDetailsViewModel.swift in Sources */,
+				2215D56227F6002A006642E1 /* MyTunesDetailsViewModelImpl.swift in Sources */,
 				22EBB48027F4737800C1C88E /* MyTunesListViewModel.swift in Sources */,
 				22EBB47E27F4736A00C1C88E /* MyTunesListViewController.swift in Sources */,
 				22EBB47B27F471E400C1C88E /* MyTunesListResponse.swift in Sources */,
@@ -339,6 +374,7 @@
 				22EBB48527F4954E00C1C88E /* MyTunesListCoordinator.swift in Sources */,
 				22EBB46D27F46FA500C1C88E /* ApiClient.swift in Sources */,
 				22EBB46F27F46FB700C1C88E /* ApiConfiguration.swift in Sources */,
+				2215D55C27F5FFE6006642E1 /* MyTunesDetailsViewExtension.swift in Sources */,
 				22EBB48927F4989400C1C88E /* MyTunesListViewExtension.swift in Sources */,
 				22EBB47127F46FC800C1C88E /* ApiEndPoints.swift in Sources */,
 			);

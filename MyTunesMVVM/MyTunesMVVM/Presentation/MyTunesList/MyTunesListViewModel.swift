@@ -11,7 +11,7 @@ import XCoordinator
 import Action
 
 protocol MyTunesListViewModelInput {
-    
+    var selectedTune: AnyObserver<Results> { get }
 }
 protocol MyTunesListViewModelOutput {
     var myTunesListResponse: PublishSubject<MyTunesListResponse> { get }

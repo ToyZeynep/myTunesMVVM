@@ -14,7 +14,7 @@ import XCoordinator
 enum MyTunesListRoute: Route {
     
     case myTunesList
-    
+    case myTunesDetails(tune: Results)
 }
 
 class MyTunesListCoordinator: NavigationCoordinator<MyTunesListRoute> {
@@ -30,8 +30,15 @@ class MyTunesListCoordinator: NavigationCoordinator<MyTunesListRoute> {
             let viewController = MyTunesListViewController()
             let viewModel = MyTunesListViewModelImpl(router: unownedRouter)
             viewController.bind(to: viewModel)
+            viewController.title = "List"
         return .push(viewController, animation: .default)
 
+        case .myTunesDetails(let tune):
+              let viewController = MyTunesDetailViewController()
+              let viewModel = MyTunesDetailViewModelImpl(router: unownedRouter, tune: tune)
+              viewController.bind(to: viewModel)
+              viewController.title = "Details"
+              return .push(viewController, animation: .default)
         }
     }
 }

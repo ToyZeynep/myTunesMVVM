@@ -41,7 +41,7 @@ class MyTunesListView: UIView {
     lazy var myTunesListSearchBar: UISearchBar = {
         let searchBar = UISearchBar()
         searchBar.searchBarStyle = .default
-        searchBar.placeholder = " Search City"
+        searchBar.placeholder = " Search Tunes"
         searchBar.subviews.first?.backgroundColor =  UIColor(rgb: 0xF5F5F5)
         searchBar.sizeToFit()
         searchBar.layer.cornerRadius = 10.5
