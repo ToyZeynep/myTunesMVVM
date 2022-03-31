@@ -130,16 +130,6 @@ class MyTunesListViewController : UIViewController, BindableType, UICollectionVi
                     self?.myTunesList.removeAll()
                     self?.searchRules()
                     
-                case Entity.allArtist.rawValue:
-                    self?.params["entity"] = Entity.allArtist.rawValue
-                    self?.myTunesList.removeAll()
-                    self?.searchRules()
-                    
-                case Entity.album.rawValue:
-                    self?.params["entity"] = Entity.album.rawValue
-                    self?.myTunesList.removeAll()
-                    self?.searchRules()
-                    
                 case Entity.mix.rawValue:
                     self?.params["entity"] = Entity.mix.rawValue
                     self?.myTunesList.removeAll()

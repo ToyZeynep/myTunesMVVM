@@ -49,7 +49,6 @@ class MyTunesDetailsView: UIView {
         let label = UILabel()
         label.textAlignment = .center
         label.textColor = .black
-        label.text = " evet var "
         label.font = UIFont.boldSystemFont(ofSize: 18)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -68,7 +67,6 @@ class MyTunesDetailsView: UIView {
         let label = UILabel()
         label.textAlignment = .center
         label.textColor = .black
-        label.text = " evet var "
         label.font = UIFont.boldSystemFont(ofSize: 18)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -78,7 +76,6 @@ class MyTunesDetailsView: UIView {
         let label = UILabel()
         label.textAlignment = .center
         label.textColor = .black
-        label.text = " evet var "
         label.font = UIFont.boldSystemFont(ofSize: 18)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -89,7 +86,6 @@ class MyTunesDetailsView: UIView {
         let label = UILabel()
         label.textAlignment = .center
         label.textColor = .black
-        label.text = " evet var "
         label.font = UIFont.boldSystemFont(ofSize: 18)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
