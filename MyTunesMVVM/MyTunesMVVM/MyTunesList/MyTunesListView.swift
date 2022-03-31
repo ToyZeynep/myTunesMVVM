@@ -55,8 +55,8 @@ class MyTunesListView: UIView {
         button.tintColor = .black
         button.translatesAutoresizingMaskIntoConstraints = false
        // button.imageEdgeInsets = EdgeInsets(top: 5 , left: 5, bottom: 5, right: 5)
-        button.setHeight(height: 35)
-        button.setWidth(width: 40)
+        button.setHeight(height: 40)
+        button.setWidth(width: 45)
         button.clipsToBounds = true
         return button
     }()
@@ -67,8 +67,8 @@ class MyTunesListView: UIView {
         button.tintColor = .black
         button.imageEdgeInsets = EdgeInsets(top: 3, left: 3, bottom: 3, right: 3)
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.setHeight(height: 35)
-        button.setWidth(width: 40)
+        button.setHeight(height: 40)
+        button.setWidth(width: 45)
         button.clipsToBounds = true
         return button
     }()

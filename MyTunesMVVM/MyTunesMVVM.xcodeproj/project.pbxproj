@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		225105D827F5ACC2002BFF7E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225105D727F5ACC2002BFF7E /* Constants.swift */; };
 		22EBB45827F46CBC00C1C88E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB45727F46CBC00C1C88E /* AppDelegate.swift */; };
 		22EBB45A27F46CBC00C1C88E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB45927F46CBC00C1C88E /* SceneDelegate.swift */; };
 		22EBB46127F46CBE00C1C88E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22EBB46027F46CBE00C1C88E /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		225105D727F5ACC2002BFF7E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		22EBB45427F46CBC00C1C88E /* MyTunesMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTunesMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22EBB45727F46CBC00C1C88E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22EBB45927F46CBC00C1C88E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 				22EBB48F27F4A02C00C1C88E /* TransitionExtension.swift */,
 				22EBB49127F4A05800C1C88E /* GridFlowLayout.swift */,
 				22EBB49327F4A0D200C1C88E /* AlertHelper.swift */,
+				225105D727F5ACC2002BFF7E /* Constants.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22EBB48E27F49FEA00C1C88E /* BindableType.swift in Sources */,
+				225105D827F5ACC2002BFF7E /* Constants.swift in Sources */,
 				22EBB45827F46CBC00C1C88E /* AppDelegate.swift in Sources */,
 				22EBB48727F4988400C1C88E /* MyTunesListView.swift in Sources */,
 				22EBB49827F4A21A00C1C88E /* MyTunesListCellExtension.swift in Sources */,

@@ -40,12 +40,11 @@ class MyTunesListViewModelImpl: MyTunesListViewModel, MyTunesListViewModelInput,
     
     init(router: UnownedRouter<MyTunesListRoute> ) {
     self.router = router
-        fetchMyTunesList()
+        
     }
     
-    func fetchMyTunesList() {
-        var params: [String: Any] = [String: Any]()
-        params["term"] = "john"
+    func fetchMyTunesList(params: [String: Any]) {
+        
         myTunesListUseCase.getMyTunesList(params: params).subscribe(onNext: { [weak self] response in
             guard let self = self else { return }
             if response.results != nil {

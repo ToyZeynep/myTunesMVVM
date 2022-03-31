@@ -16,4 +16,6 @@ target 'MyTunesMVVM' do
   pod 'Kingfisher', '~> 5.0'
   pod 'Material', '~> 3.1.0'
   pod 'Action'
+  pod 'McPicker', '~> 3.0.0'
+  pod 'SnackBar.swift'
 end

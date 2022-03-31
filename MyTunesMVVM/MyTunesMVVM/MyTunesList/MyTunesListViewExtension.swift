@@ -30,7 +30,7 @@ extension MyTunesListView {
         myTunesListToolBarView.setTop(equalTo: myTunesListContentView.topAnchor)
         myTunesListToolBarView.setLeft(equalTo: myTunesListContentView.leftAnchor)
         myTunesListToolBarView.setRight(equalTo: myTunesListContentView.rightAnchor)
-        myTunesListToolBarView.setHeight(height: 40)
+        myTunesListToolBarView.setHeight(height: 50)
         setUpStackView()
     }
     
