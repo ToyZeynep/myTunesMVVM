@@ -14,7 +14,6 @@ import Action
 
 class MyTunesListViewModelImpl: MyTunesListViewModel, MyTunesListViewModelInput, MyTunesListViewModelOutput, MyTunesListViewModelStoredProperties {
 
-//    private(set) lazy var selectedTune = selectedTuneActions.inputs
 
     let disposeBag = DisposeBag()
     
@@ -23,9 +22,6 @@ class MyTunesListViewModelImpl: MyTunesListViewModel, MyTunesListViewModelInput,
     
     // MARK: -Actions-
 
-//lazy var selectedTuneActions = Action<Results, Void> { [unowned self] tune in
-//    self.router.rx.trigger(.tuneDetail(tune: tune))
-//    }
 
     // MARK: -Outputs-
     var myTunesListResponse = PublishSubject<MyTunesListResponse>()

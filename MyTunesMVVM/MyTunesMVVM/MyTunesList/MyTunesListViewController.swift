@@ -64,7 +64,7 @@ class MyTunesListViewController : UIViewController, BindableType, UICollectionVi
         viewModel.output.myTunesList.bind(to: myTunesListView.myTunesListCollectionView.rx.items(cellIdentifier: cellIdentifier,cellType: MyTunesListCell.self)) { _, model, cell in
             
             let urlString = model.artworkUrl100?.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
-            cell.myTunesListCellImageView.kf.setImage(with: URL(string: urlString!))
+            cell.myTunesListCellImageView.kf.setImage(with: URL(string: urlString ?? ""))
             cell.myTunesListCellNameLabel.text = model.trackName
             cell.myTunesListCellTypeLabel.text = model.wrapperType
             cell.myTunesListCellKindLabel.text = model.kind
