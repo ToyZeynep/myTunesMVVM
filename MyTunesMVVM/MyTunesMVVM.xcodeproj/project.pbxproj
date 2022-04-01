@@ -40,6 +40,7 @@
 		22FD943127F77D1B00147A87 /* FavoritesListViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FD943027F77D1B00147A87 /* FavoritesListViewExtension.swift */; };
 		22FD943327F77D2A00147A87 /* FavoritesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FD943227F77D2A00147A87 /* FavoritesListViewModel.swift */; };
 		22FD943527F77D3C00147A87 /* FavoritesListViewModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FD943427F77D3C00147A87 /* FavoritesListViewModelImpl.swift */; };
+		22FD943727F782CF00147A87 /* Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FD943627F782CF00147A87 /* Realm.swift */; };
 		4684E1A7B3D1ED070EB04CDA /* Pods_MyTunesMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B63C47DF8E9172C8C9FA0EC /* Pods_MyTunesMVVM.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +80,7 @@
 		22FD943027F77D1B00147A87 /* FavoritesListViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewExtension.swift; sourceTree = "<group>"; };
 		22FD943227F77D2A00147A87 /* FavoritesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewModel.swift; sourceTree = "<group>"; };
 		22FD943427F77D3C00147A87 /* FavoritesListViewModelImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewModelImpl.swift; sourceTree = "<group>"; };
+		22FD943627F782CF00147A87 /* Realm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realm.swift; sourceTree = "<group>"; };
 		2B63C47DF8E9172C8C9FA0EC /* Pods_MyTunesMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTunesMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78B08EC1290552E066761E96 /* Pods-MyTunesMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTunesMVVM.release.xcconfig"; path = "Target Support Files/Pods-MyTunesMVVM/Pods-MyTunesMVVM.release.xcconfig"; sourceTree = "<group>"; };
 		E55CCFDCB39BB04AE07470C6 /* Pods-MyTunesMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTunesMVVM.debug.xcconfig"; path = "Target Support Files/Pods-MyTunesMVVM/Pods-MyTunesMVVM.debug.xcconfig"; sourceTree = "<group>"; };
@@ -227,6 +229,7 @@
 				22EBB49127F4A05800C1C88E /* GridFlowLayout.swift */,
 				22EBB49327F4A0D200C1C88E /* AlertHelper.swift */,
 				225105D727F5ACC2002BFF7E /* Constants.swift */,
+				22FD943627F782CF00147A87 /* Realm.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 				22EBB49027F4A02C00C1C88E /* TransitionExtension.swift in Sources */,
 				22EBB45A27F46CBC00C1C88E /* SceneDelegate.swift in Sources */,
 				22EBB47927F471B700C1C88E /* Results.swift in Sources */,
+				22FD943727F782CF00147A87 /* Realm.swift in Sources */,
 				22EBB49427F4A0D200C1C88E /* AlertHelper.swift in Sources */,
 				22FD942F27F77D0600147A87 /* FavoritesListView.swift in Sources */,
 				22FD943527F77D3C00147A87 /* FavoritesListViewModelImpl.swift in Sources */,

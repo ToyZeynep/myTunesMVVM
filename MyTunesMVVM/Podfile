@@ -18,4 +18,6 @@ target 'MyTunesMVVM' do
   pod 'Action'
   pod 'McPicker', '~> 3.0.0'
   pod 'SnackBar.swift'
+  pod 'RealmSwift'
+  
 end
