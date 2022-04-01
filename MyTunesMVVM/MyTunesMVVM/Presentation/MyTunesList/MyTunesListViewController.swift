@@ -115,7 +115,7 @@ class MyTunesListViewController : UIViewController, BindableType, UICollectionVi
                 case "entity":
                     DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
    
-                        let entity: [String] = [Entity.musicVideo.rawValue , Entity.podcast.rawValue , Entity.allArtist.rawValue , Entity.album.rawValue , Entity.mix.rawValue , Entity.audiobook.rawValue , Entity.tvSeason.rawValue , Entity.allTrack.rawValue]
+                        let entity: [String] = [Entity.musicVideo.rawValue , Entity.podcast.rawValue , Entity.mix.rawValue , Entity.audiobook.rawValue , Entity.tvSeason.rawValue , Entity.allTrack.rawValue]
                     self!.showPicker(sender, list: entity)
                     }
                     

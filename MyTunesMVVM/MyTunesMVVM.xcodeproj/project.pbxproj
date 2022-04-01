@@ -35,6 +35,11 @@
 		22EBB49427F4A0D200C1C88E /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB49327F4A0D200C1C88E /* AlertHelper.swift */; };
 		22EBB49627F4A16700C1C88E /* MyTunesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB49527F4A16700C1C88E /* MyTunesListCell.swift */; };
 		22EBB49827F4A21A00C1C88E /* MyTunesListCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB49727F4A21A00C1C88E /* MyTunesListCellExtension.swift */; };
+		22FD942D27F77CF600147A87 /* FavoritesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FD942C27F77CF600147A87 /* FavoritesListViewController.swift */; };
+		22FD942F27F77D0600147A87 /* FavoritesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FD942E27F77D0600147A87 /* FavoritesListView.swift */; };
+		22FD943127F77D1B00147A87 /* FavoritesListViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FD943027F77D1B00147A87 /* FavoritesListViewExtension.swift */; };
+		22FD943327F77D2A00147A87 /* FavoritesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FD943227F77D2A00147A87 /* FavoritesListViewModel.swift */; };
+		22FD943527F77D3C00147A87 /* FavoritesListViewModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FD943427F77D3C00147A87 /* FavoritesListViewModelImpl.swift */; };
 		4684E1A7B3D1ED070EB04CDA /* Pods_MyTunesMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B63C47DF8E9172C8C9FA0EC /* Pods_MyTunesMVVM.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +74,11 @@
 		22EBB49327F4A0D200C1C88E /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
 		22EBB49527F4A16700C1C88E /* MyTunesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTunesListCell.swift; sourceTree = "<group>"; };
 		22EBB49727F4A21A00C1C88E /* MyTunesListCellExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTunesListCellExtension.swift; sourceTree = "<group>"; };
+		22FD942C27F77CF600147A87 /* FavoritesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewController.swift; sourceTree = "<group>"; };
+		22FD942E27F77D0600147A87 /* FavoritesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListView.swift; sourceTree = "<group>"; };
+		22FD943027F77D1B00147A87 /* FavoritesListViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewExtension.swift; sourceTree = "<group>"; };
+		22FD943227F77D2A00147A87 /* FavoritesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewModel.swift; sourceTree = "<group>"; };
+		22FD943427F77D3C00147A87 /* FavoritesListViewModelImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewModelImpl.swift; sourceTree = "<group>"; };
 		2B63C47DF8E9172C8C9FA0EC /* Pods_MyTunesMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTunesMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78B08EC1290552E066761E96 /* Pods-MyTunesMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTunesMVVM.release.xcconfig"; path = "Target Support Files/Pods-MyTunesMVVM/Pods-MyTunesMVVM.release.xcconfig"; sourceTree = "<group>"; };
 		E55CCFDCB39BB04AE07470C6 /* Pods-MyTunesMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTunesMVVM.debug.xcconfig"; path = "Target Support Files/Pods-MyTunesMVVM/Pods-MyTunesMVVM.debug.xcconfig"; sourceTree = "<group>"; };
@@ -89,6 +99,7 @@
 		2215D55727F5FF78006642E1 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				22FD942B27F77CD600147A87 /* FavoritesList */,
 				2215D55827F5FF92006642E1 /* MyTunesDetails */,
 				22EBB47C27F4733F00C1C88E /* MyTunesList */,
 			);
@@ -218,6 +229,18 @@
 				225105D727F5ACC2002BFF7E /* Constants.swift */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		22FD942B27F77CD600147A87 /* FavoritesList */ = {
+			isa = PBXGroup;
+			children = (
+				22FD942C27F77CF600147A87 /* FavoritesListViewController.swift */,
+				22FD942E27F77D0600147A87 /* FavoritesListView.swift */,
+				22FD943027F77D1B00147A87 /* FavoritesListViewExtension.swift */,
+				22FD943227F77D2A00147A87 /* FavoritesListViewModel.swift */,
+				22FD943427F77D3C00147A87 /* FavoritesListViewModelImpl.swift */,
+			);
+			path = FavoritesList;
 			sourceTree = "<group>";
 		};
 		37AC980C88BB08B61388A01B /* Pods */ = {
@@ -355,6 +378,7 @@
 				225105D827F5ACC2002BFF7E /* Constants.swift in Sources */,
 				22EBB45827F46CBC00C1C88E /* AppDelegate.swift in Sources */,
 				22EBB48727F4988400C1C88E /* MyTunesListView.swift in Sources */,
+				22FD943327F77D2A00147A87 /* FavoritesListViewModel.swift in Sources */,
 				22EBB49827F4A21A00C1C88E /* MyTunesListCellExtension.swift in Sources */,
 				22EBB49227F4A05800C1C88E /* GridFlowLayout.swift in Sources */,
 				22EBB48227F4738700C1C88E /* MyTunesListViewModelImpl.swift in Sources */,
@@ -364,6 +388,8 @@
 				22EBB45A27F46CBC00C1C88E /* SceneDelegate.swift in Sources */,
 				22EBB47927F471B700C1C88E /* Results.swift in Sources */,
 				22EBB49427F4A0D200C1C88E /* AlertHelper.swift in Sources */,
+				22FD942F27F77D0600147A87 /* FavoritesListView.swift in Sources */,
+				22FD943527F77D3C00147A87 /* FavoritesListViewModelImpl.swift in Sources */,
 				2215D55E27F5FFF6006642E1 /* MyTunesDetailsViewController.swift in Sources */,
 				2215D56027F6001A006642E1 /* MyTunesDetailsViewModel.swift in Sources */,
 				2215D56227F6002A006642E1 /* MyTunesDetailsViewModelImpl.swift in Sources */,
@@ -373,9 +399,11 @@
 				22EBB48C27F49CB400C1C88E /* ViewExtension.swift in Sources */,
 				22EBB48527F4954E00C1C88E /* MyTunesListCoordinator.swift in Sources */,
 				22EBB46D27F46FA500C1C88E /* ApiClient.swift in Sources */,
+				22FD943127F77D1B00147A87 /* FavoritesListViewExtension.swift in Sources */,
 				22EBB46F27F46FB700C1C88E /* ApiConfiguration.swift in Sources */,
 				2215D55C27F5FFE6006642E1 /* MyTunesDetailsViewExtension.swift in Sources */,
 				22EBB48927F4989400C1C88E /* MyTunesListViewExtension.swift in Sources */,
+				22FD942D27F77CF600147A87 /* FavoritesListViewController.swift in Sources */,
 				22EBB47127F46FC800C1C88E /* ApiEndPoints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
