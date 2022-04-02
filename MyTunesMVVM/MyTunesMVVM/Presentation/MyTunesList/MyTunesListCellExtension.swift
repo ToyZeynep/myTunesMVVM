@@ -18,14 +18,14 @@ extension MyTunesListCell {
         myTunesListCellContentView.setHeight(height: 375)
         myTunesListCellContentView.setWidth(width: 160)
         
-        setUpCharacterImageView()
+        setUpImageView()
         setUpNameLabel()
         setUpStatusLabel()
         setUpSpeciesLabel()
         setUpFavoriteButton()
     }
     
-    func setUpCharacterImageView()  {
+    func setUpImageView()  {
         myTunesListCellContentView.addSubview(myTunesListCellImageView)
         myTunesListCellImageView.setTop(equalTo: myTunesListCellContentView.topAnchor, constant: 0)
         myTunesListCellImageView.setLeft(equalTo: myTunesListCellContentView.leftAnchor, constant: 0)

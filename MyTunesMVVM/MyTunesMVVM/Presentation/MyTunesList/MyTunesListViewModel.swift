@@ -28,6 +28,7 @@ protocol MyTunesListViewModel {
     var output: MyTunesListViewModelOutput { get }
     var storedProperties : MyTunesListViewModelStoredProperties { get }
     func fetchMyTunesList(params: [String:Any])
+    func navigateToFavorites()
 }
 
 extension MyTunesListViewModel where Self: MyTunesListViewModelInput & MyTunesListViewModelOutput & MyTunesListViewModelStoredProperties {

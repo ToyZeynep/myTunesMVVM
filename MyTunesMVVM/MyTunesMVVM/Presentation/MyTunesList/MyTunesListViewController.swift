@@ -82,6 +82,10 @@ class MyTunesListViewController : UIViewController, BindableType, UICollectionVi
             }).disposed(by: cell.disposeBag)
         } .disposed(by: disposeBag)
         
+        myTunesListView.myTunesListFavoritesButton.rx.tapGesture().when(.recognized).subscribe(onNext: { gesture in
+            self.viewModel.navigateToFavorites()
+        }).disposed(by: disposeBag)
+        
         myTunesListView.myTunesListCollectionView.rx.modelSelected(Results.self)
             .bind(to: viewModel.input.selectedTune).disposed(by: disposeBag)
     }

@@ -58,6 +58,6 @@ class MyTunesListViewModelImpl: MyTunesListViewModel, MyTunesListViewModelInput,
     }
     
     func navigateToFavorites()  {
-//        router.trigger(.favoriteList)
+        router.trigger(.favoriteList)
     }
 }
