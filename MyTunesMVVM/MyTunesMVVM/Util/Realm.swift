@@ -30,9 +30,9 @@ class RealmHelper {
    //     return object
    // }
     
-    static func getObjects<T:Results>(filter:String)->[T] {
+    func getObjects<T:Results>() ->[T] {
            let realm = try! Realm()
-           let realmResults = realm.objects(T.self).filter(filter)
+           let realmResults = realm.objects(T.self)
            return Array(realmResults)
 
        }

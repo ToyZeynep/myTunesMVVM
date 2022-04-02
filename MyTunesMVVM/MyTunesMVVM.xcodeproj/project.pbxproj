@@ -35,6 +35,8 @@
 		22EBB49427F4A0D200C1C88E /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB49327F4A0D200C1C88E /* AlertHelper.swift */; };
 		22EBB49627F4A16700C1C88E /* MyTunesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB49527F4A16700C1C88E /* MyTunesListCell.swift */; };
 		22EBB49827F4A21A00C1C88E /* MyTunesListCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBB49727F4A21A00C1C88E /* MyTunesListCellExtension.swift */; };
+		22EE4A7A27F864450067FC4F /* FavoriteListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EE4A7927F864450067FC4F /* FavoriteListCell.swift */; };
+		22EE4A7C27F8645B0067FC4F /* FavoriteListCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EE4A7B27F8645B0067FC4F /* FavoriteListCellExtension.swift */; };
 		22FD942D27F77CF600147A87 /* FavoritesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FD942C27F77CF600147A87 /* FavoritesListViewController.swift */; };
 		22FD942F27F77D0600147A87 /* FavoritesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FD942E27F77D0600147A87 /* FavoritesListView.swift */; };
 		22FD943127F77D1B00147A87 /* FavoritesListViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FD943027F77D1B00147A87 /* FavoritesListViewExtension.swift */; };
@@ -75,6 +77,8 @@
 		22EBB49327F4A0D200C1C88E /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
 		22EBB49527F4A16700C1C88E /* MyTunesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTunesListCell.swift; sourceTree = "<group>"; };
 		22EBB49727F4A21A00C1C88E /* MyTunesListCellExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTunesListCellExtension.swift; sourceTree = "<group>"; };
+		22EE4A7927F864450067FC4F /* FavoriteListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListCell.swift; sourceTree = "<group>"; };
+		22EE4A7B27F8645B0067FC4F /* FavoriteListCellExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListCellExtension.swift; sourceTree = "<group>"; };
 		22FD942C27F77CF600147A87 /* FavoritesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewController.swift; sourceTree = "<group>"; };
 		22FD942E27F77D0600147A87 /* FavoritesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListView.swift; sourceTree = "<group>"; };
 		22FD943027F77D1B00147A87 /* FavoritesListViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewExtension.swift; sourceTree = "<group>"; };
@@ -237,9 +241,11 @@
 		22FD942B27F77CD600147A87 /* FavoritesList */ = {
 			isa = PBXGroup;
 			children = (
-				22FD942C27F77CF600147A87 /* FavoritesListViewController.swift */,
+				22EE4A7927F864450067FC4F /* FavoriteListCell.swift */,
+				22EE4A7B27F8645B0067FC4F /* FavoriteListCellExtension.swift */,
 				22FD942E27F77D0600147A87 /* FavoritesListView.swift */,
 				22FD943027F77D1B00147A87 /* FavoritesListViewExtension.swift */,
+				22FD942C27F77CF600147A87 /* FavoritesListViewController.swift */,
 				22FD943227F77D2A00147A87 /* FavoritesListViewModel.swift */,
 				22FD943427F77D3C00147A87 /* FavoritesListViewModelImpl.swift */,
 			);
@@ -389,6 +395,7 @@
 				22EBB47427F4708B00C1C88E /* MyTunesListUseCase.swift in Sources */,
 				22EBB49027F4A02C00C1C88E /* TransitionExtension.swift in Sources */,
 				22EBB45A27F46CBC00C1C88E /* SceneDelegate.swift in Sources */,
+				22EE4A7A27F864450067FC4F /* FavoriteListCell.swift in Sources */,
 				22EBB47927F471B700C1C88E /* Results.swift in Sources */,
 				22FD943727F782CF00147A87 /* Realm.swift in Sources */,
 				22EBB49427F4A0D200C1C88E /* AlertHelper.swift in Sources */,
@@ -396,6 +403,7 @@
 				22FD943527F77D3C00147A87 /* FavoritesListViewModelImpl.swift in Sources */,
 				2215D55E27F5FFF6006642E1 /* MyTunesDetailsViewController.swift in Sources */,
 				2215D56027F6001A006642E1 /* MyTunesDetailsViewModel.swift in Sources */,
+				22EE4A7C27F8645B0067FC4F /* FavoriteListCellExtension.swift in Sources */,
 				2215D56227F6002A006642E1 /* MyTunesDetailsViewModelImpl.swift in Sources */,
 				22EBB48027F4737800C1C88E /* MyTunesListViewModel.swift in Sources */,
 				22EBB47E27F4736A00C1C88E /* MyTunesListViewController.swift in Sources */,

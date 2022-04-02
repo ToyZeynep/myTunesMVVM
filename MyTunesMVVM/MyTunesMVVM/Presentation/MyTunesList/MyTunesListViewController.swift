@@ -68,6 +68,18 @@ class MyTunesListViewController : UIViewController, BindableType, UICollectionVi
             cell.myTunesListCellNameLabel.text = model.trackName
             cell.myTunesListCellTypeLabel.text = model.wrapperType
             cell.myTunesListCellKindLabel.text = model.kind
+            cell.myTunesListCellAddFavoriteButton.rx.tapGesture().when(.recognized).subscribe(onNext: {gesture in
+                let favoriteList = RealmHelper.sharedInstance.getObjects().map { $0 }
+                if let position = favoriteList.firstIndex(where: {$0.trackName == model.trackName}){
+                    RealmHelper.sharedInstance.deleteFromDb(tune: favoriteList[position])
+                    
+                    cell.myTunesListCellAddFavoriteButton.backgroundColor = .clear
+                }else{
+                    RealmHelper.sharedInstance.addCharacterToFavorites(tune: model)
+                   
+                    cell.myTunesListCellAddFavoriteButton.backgroundColor = .red
+                }
+            }).disposed(by: cell.disposeBag)
         } .disposed(by: disposeBag)
         
         myTunesListView.myTunesListCollectionView.rx.modelSelected(Results.self)

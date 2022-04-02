@@ -11,9 +11,9 @@ import Foundation
 class Results : Object, Codable {
     @objc dynamic var  wrapperType : String?
     @objc dynamic var  kind : String?
-    @objc dynamic var  artistId = 0
-    @objc dynamic var  collectionId = 0
-    @objc dynamic var  trackId = 0
+   // @objc dynamic var  artistId = 0
+   // @objc dynamic var  collectionId = 0
+   // @objc dynamic var  trackId = 0
     @objc dynamic var  artistName : String?
     @objc dynamic var  collectionName : String?
     @objc dynamic var  trackName : String?
@@ -38,9 +38,9 @@ class Results : Object, Codable {
 
         case wrapperType = "wrapperType"
         case kind = "kind"
-        case artistId = "artistId"
-        case collectionId = "collectionId"
-        case trackId = "trackId"
+       // case artistId = "artistId"
+       // case collectionId = "collectionId"
+       // case trackId = "trackId"
         case artistName = "artistName"
         case collectionName = "collectionName"
         case trackName = "trackName"
